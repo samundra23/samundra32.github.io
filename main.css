@@ -13,7 +13,7 @@
     --bg-color:#1f242d;
     --second-bg-color:#323946;
     --text-color:#fff;
-    --main-color:#0ef;
+    --main-color:#00e1ff;
 }
 html{
     font-size: 62.5%;
@@ -28,6 +28,7 @@ section{
     padding: 10rem 9% 2rem;
 }
 .header{
+    height: 8rem;
     position: fixed;
     top: 0;
     left: o;
@@ -38,15 +39,15 @@ section{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
 }
 .header.sticky{
     border-bottom: .1rem solid rgba(0, 0,0,.2);
 }
-.logo {
-    font-size: 2.5rem;
-    color: var(--text-color);
-    font-weight: 700;
-    cursor: default;
+.logo img {
+    margin-top: 6rem;
+    width: 20rem;
+    
 }
 .navbar a{
     font-size: 1.7rem;
@@ -71,7 +72,7 @@ section{
 }
 
  .home-img img{
-    width: 35vw;
+    width: 45vw;
     animation: floatImage 4s ease-in-out infinite;
  }
 
